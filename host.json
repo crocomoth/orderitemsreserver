@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "baseUrls": {
+    "apiBase": "https://papiunenkaeshopapi.azurewebsites.net",
+    "webBase": "https://localhost:44315/",
+    "storageBase": "DefaultEndpointsProtocol=https;AccountName=papiunenkastorageaccount;AccountKey=JkrRS7u2pn51nrZD3Ci0qJqmcZOgr4Q0AyGk2qhTeIAmbqU46s7NZz988mLXh0bM8Z5DbTZ9vA7w+AStRSUAhw==;EndpointSuffix=core.windows.net",
+    "functionBase": "https://papiunenkaorderfunction.azurewebsites.net"
+  }
+}
